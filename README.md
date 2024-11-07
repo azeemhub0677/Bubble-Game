@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bubble Matching Game Description</title>
+
 </head>
 <body>
+  <p></p>
   <h1>Bubble Matching Game</h1>
   <p><strong>Objective:</strong> Players click on bubbles that contain numbers. If they successfully click on matching numbers, their score increases. The game continues as bubbles with different numbers pop up, allowing the player to keep scoring.</p>
   
