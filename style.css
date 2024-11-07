@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilory";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-image: url("bg.jpeg");
+}
+.container {
+  overflow: hidden;
+  width: 900px;
+  height: 600px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 6px 6px 15px black;
+}
+.topside {
+  padding: 0px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 900px;
+  box-shadow: 1px 5px 5px rgb(3, 3, 3);
+  background-color: #8c3511;
+}
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box {
+  font-weight: 800;
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 1px 0px 8px rgb(94, 93, 93) inset;
+}
+.downside {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 25px;
+  height: calc(100%-50px);
+  width: 900px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: rgb(143, 90, 47);
+  /* border: solid 1px black; */
+  box-shadow: 5px 5px 8px rgb(78, 77, 77);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.circle:hover {
+  /* background-color: rgb(107, 69, 37);/ */
+  box-shadow: 5px 5px 6px rgb(37, 37, 37) inset;
+  transform: scale(1.1);
+}
+.over {
+  margin-top: 25%;
+  color: white;
+}
